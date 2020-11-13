@@ -21,11 +21,11 @@ var (
 )
 
 var separator = string(filepath.Separator)
-var arrow = " ▬▬▶ "
+var arrow = "━━▶ "
 
 func init() {
 	flag.BoolVar(&recursive, "r", false, "recursive")
-	flag.BoolVar(&change, "c", false, "change fileNames, used in conjuction")
+	flag.BoolVar(&change, "c", false, "change fileNames, used in conjunction")
 }
 
 var s *sanitize.Sanitize
